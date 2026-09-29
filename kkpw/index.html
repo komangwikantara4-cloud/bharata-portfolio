@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Harata</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome untuk ikon sosial media -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Terpisah -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar (Tulisan & Tombol Navbar Berwarna #DFDFD3) -->
+    <nav class="navbar navbar-expand-lg fixed-top px-4" style="background-color: #DFDFD3;">
+        <a class="navbar-brand fw-bold" href="#" style="color: #062B24;">Portofolio Harata</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="nav">
+            <ul class="navbar-nav gap-3">
+                <li class="nav-item"><a class="nav-link" href="#home" style="color: #062B24;">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about" style="color: #062B24;">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#certificate" style="color: #062B24;">Certificate</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="container py-5 mt-5">
+        <div class="row align-items-center py-5">
+            <div class="col-lg-7 text-white">
+                <small style="color: #a2b5ac;">-Home-</small>
+                <h1 class="fw-bold my-3">Hello, I'm Komang Bharata Sai Wikantara <span style="color: #D07A45;">As Student & Beginner Developer</span></h1>
+                <div class="d-flex gap-3 mt-4">
+                    <a href="#project" class="btn text-white" style="border: 1px solid #D07A45;">My Project</a>
+                    <a href="#contact" class="btn text-white fw-bold" style="background-color: #D07A45;">Contact Me</a>
+                </div>
+            </div>
+            <div class="col-lg-5 position-relative" style="height: 320px;">
+                <div class="profile-img main"><img src="foto-saya.jpg.png" alt="Main"></div>
+                <div class="profile-img top"><img src="foto-saya3.jpg.png" alt="Top"></div>
+                <div class="profile-img bottom"><img src="foto-saya2.jpg.png" alt="Bottom"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="container py-4">
+        <div class="p-4 rounded-4 shadow-sm" style="background-color: #FFFFFF;">
+            <small class="text-muted">-About Me-</small>
+            <h3 class="fw-bold text-dark mb-3">You can call me Harata</h3>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-7 text-dark">
+                    <p>I'm an RPL student interested in technology, programming, and UI/UX design. I enjoy studying with HTML, CSS, C++, Figma, Scratch, Python, and MIT App Inventor. I like exploring new ideas, learning through projects, and improving my skills as I discover more about the world of IT.</p>
+                </div>
+                <div class="col-lg-5">
+                    <div class="p-3 rounded-3 mb-3 text-dark" style="background-color: #EDC8B1;">
+                        <h5 class="fw-bold text-center mb-3">My Skill</h5>
+                        <div class="row text-center g-2">
+                            <div class="col-4"><span class="badge w-100 py-2 text-white" style="background-color: #062B24;">HTML</span></div>
+                            <div class="col-4"><span class="badge w-100 py-2 text-white" style="background-color: #062B24;">CSS</span></div>
+                            <div class="col-4"><span class="badge w-100 py-2 text-white" style="background-color: #062B24;">Figma</span></div>
+                            <div class="col-4"><span class="badge w-100 py-2 text-white" style="background-color: #062B24;">Python</span></div>
+                            <div class="col-4"><span class="badge w-100 py-2 text-white" style="background-color: #062B24;">Scratch</span></div>
+                            <div class="col-4"><span class="badge w-100 py-2 text-white" style="background-color: #062B24;">MIT App</span></div>
+                        </div>
+                    </div>
+                    <div class="p-3 rounded-3 text-dark text-center" style="background-color: #EDC8B1;">
+                        <h5 class="fw-bold mb-2">Hobby</h5>
+                        <p class="mb-1">Web Development</p>
+                        <p class="mb-0">UI/UX Design</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificate (Tanpa scroll, langsung display 3 sertifikat berdampingan) -->
+    <section id="certificate" class="container py-5 text-white">
+        <small style="color: #a2b5ac;">-My Certificate-</small>
+        <div class="row g-4 mt-2">
+            <div class="col-md-4">
+                <div class="p-3 rounded-3 cert-card h-100 d-flex flex-column align-items-center">
+                    <img src="Sertifikat_Komang Bharata Sai Wikantara_Dicoding.pdf_20260928_172042_0000.png" class="rounded img-fluid mb-2 cert-img" alt="Sertifikat 1">
+                    <p class="small mb-0 text-center">Certificate of completion for successfully completing a JavaScript course at Dicoding Indonesia.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 rounded-3 cert-card h-100 d-flex flex-column align-items-center">
+                    <img src="Sertifikat_Komang Bharata Sai Wikantara_Fasilitasi 2 Pandu Literasi Digital_20260928_172004_0000.png" class="rounded img-fluid mb-2 cert-img" alt="Sertifikat 2">
+                    <p class="small mb-0 text-center">Completed training focused on digital literacy and its application in an educational environment.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3 rounded-3 cert-card h-100 d-flex flex-column align-items-center">
+                    <img src="sertifikat1.png" class="rounded img-fluid mb-2 cert-img" alt="Sertifikat 3">
+                    <p class="small mb-0 text-center">Learned about digital mindset, adapting to technology, and developing a positive mindset in the digital era.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project (3 Project ukuran sama rata) -->
+    <section id="project" class="container py-4 text-white">
+    <small style="color: #a2b5ac;">-My Project-</small>
+    <div class="row g-4 mt-2 justify-content-center">
+        <!-- Project 1 -->
+        <div class="col-md-6">
+            <div class="p-4 rounded-3 text-center project-card h-100 d-flex flex-column justify-content-between">
+                <img src="mitapp.jpeg" class="rounded w-100 mb-2 object-fit-cover" alt="Project 1" style="height: 200px;">
+                <p class="fw-bold mb-0 mt-2">Create an app using MIT app</p>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-6">
+            <div class="p-4 rounded-3 text-center project-card h-100 d-flex flex-column justify-content-between">
+                <img src="figma.jpeg" class="rounded w-100 mb-2 object-fit-cover" alt="Project 2" style="height: 200px;">
+                <p class="fw-bold mb-0 mt-2">Create a landing page using Figma</p>
+            </div>
+        </div>
+
+        <!-- Project 3 (Tengah Bawah) -->
+        <div class="col-md-6">
+            <div class="p-4 rounded-3 text-center project-card h-100 d-flex flex-column justify-content-between">
+                <img src="scratch.jpeg" class="rounded w-100 mb-2 object-fit-cover" alt="Project 3" style="height: 200px;">
+                <p class="fw-bold mb-0 mt-2">Create an app using Scratch</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Me -->
+    <section id="contact" class="py-5 text-center mt-4" style="background-color: #D07A45;">
+        <div class="container">
+            <small class="text-dark fw-bold">-Contact Me-</small>
+            <h2 class="fw-bold text-dark my-2">My Social Media</h2>
+            <div class="d-flex justify-content-center gap-4 mt-3">
+                <a href="https://tiktok.com/@cadbury_dairymilks" target="_blank" class="social-btn"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/6289505058871" target="_blank" class="social-btn"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:komangwikantara4@gmail.com" class="social-btn"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.instagram.com/softbury" target="_blank" class="social-btn"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 text-center fw-bold small" style="background-color: #FFFFFF; color: #555555;">© 2026 Harata. All Rights Reserved.
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
